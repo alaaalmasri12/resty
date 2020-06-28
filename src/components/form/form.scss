@@ -1,0 +1,45 @@
+form
+{
+    text-align: center;
+    margin-top: 5%;
+    label
+    {
+        margin-right: 2%;
+    }
+    button
+    {
+        padding: 10px;
+    }
+    input[type="radio"] {
+        margin: 1%;  
+    }
+    input[type="radio"]:checked{  height: 20px;
+        width: 50px; }
+
+    textarea {
+        width: 90%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-top: 2%;
+        height: 195px;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+    }
+    #url
+    {
+        margin-bottom: 1%;
+        display: inline-block;
+    width: 30%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+}

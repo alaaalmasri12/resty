@@ -1,0 +1,12 @@
+@import "../design/variables.scss";
+
+.resty-header
+{
+  background-color:$dark-gray ;
+  padding: 5px;
+  h1
+  {
+    text-align: center;
+    color: #ffffff;
+  }
+}
